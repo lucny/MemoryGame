@@ -1,0 +1,106 @@
+body {
+  background: #333333;
+  background-image: url('img/prague-castle.jpg');
+  margin: 0;
+  font-family: 'Arial Narrow', Impact, Haettenschweiler, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 16px;
+  font-size: 68px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  color: #5b6980;
+  text-align: center;
+}
+
+#errors {
+  margin: 48px auto;
+  width: 25%;
+  font-size: 80px;
+  color: #d3e085;
+}
+
+p {
+  color: #9c9c9c;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.scores {
+  margin: 48px auto;
+  text-align: center;
+  width: 25%;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.quiz {
+  margin: 48px auto;
+  width: 25%;
+  font-size: 30px;
+  box-sizing: border-box;
+  color: beige;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+  margin: 0 16px;
+}
+
+.tile {
+  height: 200px;
+  background: #111111;
+  border: 5px solid #444444;
+  cursor: pointer;
+}
+
+.tile__img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.tile__label {
+  position: relative;
+  top: 80%;
+  left: 0%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.quiz__button {
+  margin: 48px auto;
+  padding: 16px;
+  width: 200px;
+  background-color: brown;
+  color: #ffffff;
+  font-size: 30px;
+  box-sizing: border-box;
+  display: none;
+}
+

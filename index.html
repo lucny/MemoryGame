@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game - JavaScript DOM Project</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main class="flex-container">
+    <div class="scores">
+      <h1>GAME OF CASTLE</h1>
+      <h2>Hledejte prezidenty</h2>
+      <p>Zahrejte si klasické PEXESO s portréty českých prezidentů a pokuste se zjistit, 
+        které hlavy našeho státu ve hře o Hrad zrovna chyběly.</p>
+      <h2>Počet chyb</h2>
+      <h3 id="errors">0</h1>
+    </div>
+    <div class="tiles"></div>
+    <div class="quiz">
+      <h2>Kdo chybí?</h2>
+      <div id="quiz_options">
+      </div>
+      <button class="quiz__button">Ověřit</button>
+      <h1 id="result"></h1>
+    </div>    
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
